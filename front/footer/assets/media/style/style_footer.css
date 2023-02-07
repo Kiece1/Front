@@ -1,0 +1,128 @@
+footer {
+  padding: 2rem;
+  background: rgb(2, 29, 2);
+  color: white;
+  font-family: "Shadows Into Light", cursive;
+  font-size: 1.3rem;
+}
+
+.container p {
+  margin: 1rem 2rem;
+  width: 25vw;
+  text-align: justify;
+}
+
+li {
+  color: white;
+}
+
+nav {
+  background: rgb(2, 29, 2);
+}
+
+nav:hover {
+  background: rgb(1, 115, 46);
+}
+
+nav li:hover {
+  text-decoration: underline;
+  text-decoration-color: rgb(0, 0, 133);
+  text-decoration-thickness: 10px;
+}
+
+ul li {
+  font-size: 1.7rem;
+  color: white;
+  font-weight: 600;
+  letter-spacing: 0.12rem;
+}
+
+.container {
+  margin-bottom: 3rem;
+}
+
+.contImgCopy img {
+  height: 1000px;
+}
+
+.contImgCopy {
+  width: 100vw;
+  height: 600px;
+  overflow: hidden;
+  object-fit: cover;
+}
+
+.footerMenu {
+  z-index: 1;
+}
+
+.containerCopy ul {
+  position: absolute;
+  padding: 0rem 0 5rem;
+  width: 100vw;
+  background: transparent;
+}
+
+.containerCopy ul li {
+  font-size: 2.3rem;
+  color: rgb(86, 25, 139);
+  font-weight: 600;
+  letter-spacing: 0.12rem;
+}
+
+.containerCopy p {
+  margin: 0 1rem;
+  text-align: justify;
+  text-transform: uppercase;
+  color: rgb(2, 29, 2);
+}
+
+.imgLogo {
+  width: 70px;
+  height: 70px;
+  overflow: hidden;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.imgLogo img {
+  width: 70px;
+  transform: translateY(-1.5rem);
+}
+
+#logoName {
+  text-decoration: none;
+  font-size: 5rem;
+  text-transform: uppercase;
+}
+
+#copyright {
+  font-size: 1.5rem;
+}
+
+span {
+  text-decoration: underline;
+}
+
+@media (width<=900px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .container p {
+    margin: 1rem 2rem 3rem;
+    width: 75vw;
+    text-align: justify;
+  }
+
+  #copyright {
+    font-size: 1rem;
+  }
+
+  footer i{
+    font-size: 1rem;
+  }
+}
